@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>clock and stop watch</title>
+  </head>
+  <body>
+    <button id="toggle-button">Clock</button>
+
+    <div class="clock container show">
+      <sapn id="clock"> 00:00:00 </sapn>
+    </div>
+    <div class="stop container">
+      <sapn id="stop"> 00:00:00:00 </sapn>
+      <div>
+        <button id="toggle" onclick="toggle()">Start</button>
+        <button id="reset" onclick="reset()">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>

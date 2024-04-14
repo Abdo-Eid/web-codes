@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 10vw;
+}
+body {
+  height: 100vh;
+  background: url("bd.jpg") no-repeat fixed center;
+  background-size: cover;
+  text-align: center;
+}
+#toggle-button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.3em;
+  backdrop-filter: blur(4px);
+  background-color: hsla(0, 0%, 60%, 0.3);
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 0.5rem;
+  width: 3rem;
+  height: 1rem;
+}
+#toggle-button:hover {
+  backdrop-filter: blur(7px);
+  background-color: hsla(0, 0%, 50%, 0.5);
+}
+.container {
+  display: none;
+  text-align: center;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  padding: 0.3em;
+  background-color: hsla(0, 0%, 80%, 0.15);
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.show {
+  display: block;
+}
+div.stop div button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.4em;
+  font-size: 0.4rem;
+  color: whitesmoke;
+}
+div.stop div button:hover {
+  box-shadow: inset 0px 0px 30px 10px rgba(80, 80, 80, 0.7);
+}
+div.stop div button:nth-child(1) {
+  background-color: hsla(120, 100%, 25%, 0.7);
+}
+div.stop div button:nth-child(2) {
+  background-color: hsla(5, 100%, 25%, 0.7);
+}
+div.stop div button:nth-child(3) {
+  background-color: hsla(197, 100%, 25%, 0.7);
+}
